@@ -1,0 +1,185 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f4f4;
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  height: 100vh;
+  width: 350px;
+  background-color: #0f7d17;
+}
+
+.menu h1 {
+
+  height: 150px;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.MenuList {
+  height: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.MenuList .row {
+  height: 100px;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.MenuList .row:hover {
+  cursor: pointer;
+  background-color: #08470c;
+}
+
+.MenuList #active {
+  background-color: #08470c;
+}
+
+.row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.row #title {
+  flex: 70%;
+}
+
+.Page {
+  position: fixed;
+  left: 25%;
+  top: 0%;
+  color: #ffffff;
+  font-size: 70px;
+}
+
+.pageShape {
+  position: fixed;
+  left: 22%;
+  top: 4%;
+  width: 100vw;
+  overflow: hidden;
+  padding: 60px;
+  background: #0f7d17;
+}
+
+.home img {
+  height: 100vh;
+  width: 1150px;
+  position: absolute;
+  top: 0%;
+  left: 25%;
+}
+
+.AddPatient {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  top: 25%;
+}
+
+.shape {
+  position: relative;
+  height: 350px;
+  width: 400px;
+  overflow: hidden;
+  padding: 60px;
+  background: #adf483;
+  border-radius: 20%;
+}
+
+.AddPatient label {
+  text-align: left;
+  display: block;
+}
+
+.AddPatient h2 {
+  font-size: 20px;
+  color: #3c3838;
+  margin-bottom: 30px;
+}
+
+.AddPatient input,
+.AddPatient textarea,
+.AddPatient select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.AddPatient button {
+  background: #3c3a3b;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.AddTermin {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  left: 45%;
+  top: 25%;
+}
+
+.AddTermin input,
+.AddTermin textarea,
+.AddTermin select {
+  width: 100%;
+  height: 45px;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.AddTermin button {
+  background: #3c3a3b;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.postContainer {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+
+
+
+}
+
+.lists {
+  position: fixed;
+  left: 40%;
+  top: 30%;
+}
